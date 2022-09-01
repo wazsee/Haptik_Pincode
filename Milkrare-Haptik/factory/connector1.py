@@ -6,8 +6,8 @@ def milking(request_json):
     try:
         response = {}
         #df = pd.read_csv(r"C:\Users\satishkumar.s\Desktop\Milkrare-Haptik\factory\Haptikdata.csv",encoding='latin-1')
-        url = "https://github.com/wazsee/Haptik_Pincode/blob/main/Milkrare-Haptik/factory/Haptikdata.csv"
-        df = pd.read_csv('url', on_bad_lines='skip')
+        #url = "https://github.com/wazsee/Haptik_Pincode/blob/main/Milkrare-Haptik/factory/Haptikdata.csv"
+        df = pd.read_csv('https://github.com/wazsee/Haptik_Pincode/blob/main/Milkrare-Haptik/factory/Haptikdata.csv', on_bad_lines='skip')
             
         #print("df")
         

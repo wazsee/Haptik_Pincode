@@ -5,8 +5,11 @@ import os
 def milking(request_json):
     try:
         response = {}
-        df = pd.read_csv(r"C:\Users\satishkumar.s\Desktop\Milkrare-Haptik\factory\Haptikdata.csv",encoding='latin-1')
-        print("df")
+        #df = pd.read_csv(r"C:\Users\satishkumar.s\Desktop\Milkrare-Haptik\factory\Haptikdata.csv",encoding='latin-1')
+        url = https://github.com/wazsee/Haptik_Pincode/blob/main/Milkrare-Haptik/factory/Haptikdata.csv
+        df = pd.read_csv(url)
+            
+        #print("df")
         
 
         #request_json['Milk1_Dry2'] = 1 if request_json['Milk1_Dry2'] == "milk" else 2
